@@ -1,0 +1,12 @@
+application:
+  replicas: 3
+  image:
+    name: aldrige/appjava
+    tag: 1.3
+  service:
+    type: NodePort
+  ingress:
+    enabled: false
+   # className: nginx
+   # hosts:
+   # - app_java.92.168.49.2:32506.nip.io
